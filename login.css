@@ -1,0 +1,187 @@
+* {
+    cursor: url('cursor2.png'), auto;
+}
+
+::selection {
+    color: #5B8DB4;
+    background: #F6E0A1;
+}
+
+body {
+    margin: 0; 
+}
+
+/* Hamburger Icon, Search Bar, and Icons */
+.top-container {
+    display: flex; 
+    align-items: center;
+    background-color: #FDFD96; 
+    position: sticky;
+    top: 0; 
+    width: 100%; 
+    margin: 0; 
+    z-index: 1000;
+    height: 55px; 
+}
+
+.search-bar {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+    max-width: 600px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: babydoll;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #36454F;
+    border: 2px solid #FCEAC8;
+}
+
+#cart {
+    width: 33px;
+    height: 33px;
+    margin-right: 10px;
+}
+
+#login {
+    width: 2em;
+    height: 2em;
+    margin-right: 10px;
+}
+
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    color: #36454F; 
+    cursor: url('cursor2.png'), auto;
+}
+
+.nav-bar {
+    display: none; 
+    background-color: #FDFD96; 
+    text-align: center;
+    position: sticky; 
+    top: 50px; 
+    width: 100%;
+    margin: 0; 
+    z-index: 1000; 
+}
+
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+.nav-bar ul li {
+    margin: 0 15px; 
+    font-family: babydoll;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.nav-bar ul li a {
+    color: #36454F;
+    text-decoration: none; 
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block; 
+}
+
+.nav-bar ul li a:hover {
+    background-color: #5B8DB4; 
+    color: #fff; 
+}
+ 
+
+
+/* Login Text */
+#login-text {
+    font-family: babydoll;
+    font-size: 64px;
+    color: pink;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Username */
+.user-text {
+    font-family: papernotes;
+    font-size: 24px;
+    color: crimson;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.user-field {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    width: 80%;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: babydoll;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #36454F;
+    background-color: #FDFD96;
+    height: 30px;
+    display: block;
+}
+
+/* Password */
+.pass-text {
+    font-family: papernotes;
+    font-size: 24px;
+    color: crimson;
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.pass-field {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    width: 80%;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: babydoll;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #36454F;
+    background-color: #FDFD96;
+    height: 30px;
+    display: block;
+}
+
+button {
+    background-color: pink;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: papernotes;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    border: 1px solid lightgrey;
+}
+
+/* Fonts */
+@font-face {
+    font-family: babydoll;
+    src: url(BabyDoll.otf);
+}
+
+@font-face {
+    font-family: papernotes;
+    src: url(Papernotes.ttf);
+}
